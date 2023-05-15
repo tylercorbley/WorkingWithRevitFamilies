@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>WorkingWithRevitFamilies - PlaceFurnitureInRoom</Text>
+    <Description>Some description for WorkingWithRevitFamilies</Description>
+    <Assembly>WorkingWithRevitFamilies.dll</Assembly>
+    <FullClassName>WorkingWithRevitFamilies.PlaceFurnitureInRoom</FullClassName>
+    <ClientId>9fa9db52-3e5e-4fac-b97e-09e9f55d653b</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>WorkingWithRevitFamilies</Name>
+    <Assembly>WorkingWithRevitFamilies.dll</Assembly>
+    <FullClassName>WorkingWithRevitFamilies.App</FullClassName>
+    <ClientId>34da09ef-103f-41da-9d99-fc557fb70fc8</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
